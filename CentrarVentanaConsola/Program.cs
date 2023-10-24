@@ -29,7 +29,7 @@ namespace CentrarVentanaConsola
             }
             catch (ArgumentOutOfRangeException e)
             {
-
+                //En caso de error hacer esto
                 Console.Clear();
                 Console.WriteLine(e.Message);
             }
